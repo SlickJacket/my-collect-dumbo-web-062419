@@ -17,11 +17,11 @@ end
 end
 
 
-my_collect(array) do |name|
-  name.split(" ").first
+my_collect(array) do |x|
+  x.split(" ").first
 end
 
 
-my_collect(collection) do |lang|
-  lang.upcase
+my_collect(collection) do |y|
+  y.upcase
 end
