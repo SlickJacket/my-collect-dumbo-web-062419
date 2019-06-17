@@ -9,9 +9,6 @@ def my_collect(array)
   newArray << yield(array[i])
   i += 1
 end
-  for element in array
-    newArray.push yield element
-  end
 
   newArray
 end
